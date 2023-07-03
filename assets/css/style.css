@@ -1,0 +1,330 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fontes/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "MontserratExtraBold";
+    src: url(../fontes/Montserrat-ExtraBold.ttf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+
+}
+
+
+.navbar-brand .logo {
+    width: 6rem;
+
+
+}
+
+.navbar-nav li {
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.navbar-nav li a {
+    color: #000;
+}
+
+
+
+
+.banner {
+    height: 470px;
+    background-image: url("../img/estrutura/banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.texto_banner {
+    width: 600px;
+    padding-top: 70px;
+    font-family: "MontserratExtraBold" !important;
+    color: #000;
+
+}
+
+.texto_banner h1 {
+
+    font-size: 2.4rem;
+
+}
+
+.texto_banner h1 .slogan {
+
+    color: #fcc600;
+    font-weight: 900;
+}
+
+.div_titulo {
+    width: 600px;
+    text-align: center;
+
+}
+
+.titulo {
+    font-family: "MontserratExtraBold";
+
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-bottom: 35px;
+
+}
+
+.box_vantagem {
+
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_box {
+
+
+    height: 210px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.texto_box {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 700;
+    width: 300px;
+
+}
+
+.img_box img {
+    width: 343px;
+}
+
+#seguranca {
+
+    width: 204px;
+}
+
+#pessoas {
+
+    width: 210px;
+}
+
+.section_delivery {
+    height: 550px;
+
+    background-color: #FFF4CC;
+}
+
+.apresentacao {
+    margin-top: 40px;
+    /* margin-bottom: 100px; */
+
+
+}
+
+.img_apres img {
+    width: 300px;
+
+}
+
+.tex_apres {
+    text-align: justify;
+}
+
+.cartao {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+
+
+.img_circulo img {
+
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: contain;
+    /* border: 2px solid#000; */
+    background-color: #455A64;
+    box-shadow: -11px 7px 20px 0px gray;
+}
+
+.texto_equipe {
+
+    text-align: justify;
+
+}
+
+.nome_equipe {
+    margin-top: 5%;
+   
+
+}
+
+.nome_equipe h5{
+    font-weight: 900;
+}
+
+.funcao_equipe h5 {
+font-weight: 900;
+    margin-bottom: 5%;
+}
+.contatos_sections{
+
+    height: 480px;
+    background-color: #FFF4CC;
+
+}
+
+.contato_txto{
+    text-align: justify;
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+.texto_caixa{
+
+    font-weight: 900;
+
+}
+
+.pergunta{
+  font-weight: 900;
+  font-size: 20px;
+
+  
+}
+.resposta{
+    margin-top: 18px;
+    
+   
+}
+
+.grupo{
+   
+  margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.conteudo{
+    margin-top: 18px;
+ 
+   flex: 3;
+  
+   text-align: justify;
+}
+.img_icone{
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+   
+  flex:1;
+ 
+}
+.circulo_icone{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:#FFEBA3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 22px;
+box-shadow: -2px 4px 14px 2px gray;
+
+
+}
+footer{
+
+    width: 100%;
+
+}
+
+.linha{
+border-right:1px solid #000 ;
+
+}
+
+.rodape{
+
+    background-image: url("../img/estrutura/rodape.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; 
+}
+.texto_rodape{
+    display: flex;
+   align-content: center;
+   font-weight:900;
+}
+
+.menu_rodape{
+
+    list-style-type: none;
+    display: flex;
+  align-items: center;
+  font-weight:900;
+}
+
+  .texto_segundo{
+    font-weight:900;
+   
+
+  }
+   
+
+
+
+.menu_rodape li{
+    padding-right: 20px;
+
+}
+.rodape2{
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icone{
+
+    display: flex;
+    list-style-type: none;
+    
+    }
+
+    .icone li{
+
+        padding-right: 32px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .icone li i{
+
+        font-size: 35px;
+
+    }
